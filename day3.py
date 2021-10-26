@@ -1,1 +1,3 @@
-print(1+1)
+x="  hello, World  "
+print(x.strip())
+print(x.upper())
