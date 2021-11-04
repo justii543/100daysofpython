@@ -35,3 +35,24 @@ print(dicti)
 #deleting a key
 dicti.pop("DOB")
 print(dicti)
+
+#for loop
+fruits=["apple","banana","strawberry","kiwi"]
+favfruits=[]
+for i in fruits:
+    if "a" in i:
+        favfruits.append(i)
+print(favfruits)
+
+#list comprehension= to compress to code into single line
+
+newfruit=[j for j in fruits if "a" in j]
+print(newfruit)
+
+#range
+newlist=[i for i in range(10)]
+print(newlist)
+
+#upper case
+nw=[j.upper() for j in fruits]
+print(nw) 
