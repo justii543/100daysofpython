@@ -1,5 +1,5 @@
 x="  hello, World  "
-print(x.strip())
+print(x.strip())  #removes the space
 print(x.upper())
 print(x.replace("h","y"))
 print(x.split(","))
